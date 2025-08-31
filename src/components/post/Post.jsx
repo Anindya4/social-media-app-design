@@ -19,7 +19,7 @@ export default function Post({ post }) {
             <img
               className="postProfileImg"
               src={Users.filter((u) => u.id === post?.userId)[0].profilePicture}
-              alt=""
+              alt="Profile Pic"
             />
             <span className="postUserName">
               {Users.filter((u) => u.id === post?.userId)[0].username}
@@ -32,19 +32,19 @@ export default function Post({ post }) {
         </div>
         <div className="postCenter">
           <span className="postText">{post?.desc}</span>
-          <img className="postImage" src={post.photo} alt="" />
+          <img className="postImage" src={post.photo} alt="Post Content" />
         </div>
         <div className="postButtom">
           <div className="postButtomLeft">
             <img
               src="/assets/like.png"
-              alt=""
+              alt="Like Button"
               className="likeIcon"
               onClick={likeHandler}
             />
             <img
               src="/assets/heart.png"
-              alt=""
+              alt="Heart Button"
               className="likeIcon"
               onClick={likeHandler}
             />
