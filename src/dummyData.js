@@ -1,22 +1,22 @@
 export const Users = [
   {
     id: 1,
-    profilePicture: "assets/person/1.jpeg",
+    profilePicture: "assets/person2/mee.jpg",
     username: "Anindya Nandi",
   },
   {
     id: 2,
     profilePicture: "assets/person/2.jpeg",
-    username: "Lara Jenson",
+    username: "Devid Jenson",
   },
   {
     id: 3,
-    profilePicture: "assets/person/3.jpeg",
+    profilePicture: "assets/person2/iron_man.png",
     username: "Iron Man",
   },
   {
     id: 4,
-    profilePicture: "assets/person/4.jpeg",
+    profilePicture: "assets/person2/luffy.png",
     username: "Monkey D. Luffy",
   },
   {
@@ -47,7 +47,7 @@ export const Users = [
   {
     id: 10,
     profilePicture: "assets/person/10.jpeg",
-    username: "Anish Patel",
+    username: "Sofia Harper",
   },
 ];
 

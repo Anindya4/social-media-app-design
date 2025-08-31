@@ -54,51 +54,67 @@ export default function Rightbar({ profile }) {
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
             <img
-              src="assets/person/1.jpeg"
+              src="assets/person2/1f.jpg"
               alt="Following user 1"
               className="righbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Arpan Khamrui</span>
+            <span className="rightbarFollowingName">Natasha</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/2.jpeg"
+              src="assets/person2/1m.jpg"
               alt="Following user 2"
               className="righbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Arpan Khamrui</span>
+            <span className="rightbarFollowingName">Risab Paul</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/3.jpeg"
+              src="assets/person2/2m.png"
               alt="Following user 3"
               className="righbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Arpan Khamrui</span>
+            <span className="rightbarFollowingName">Harry Sins</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/4.jpeg"
+              src="assets/person2/2f.jpg"
               alt="Following user 4"
               className="righbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Arpan Khamrui</span>
+            <span className="rightbarFollowingName">Janice Cupper</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/5.jpeg"
+              src="assets/person2/3f.png"
               alt="Following user 5"
               className="righbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Arpan Khamrui</span>
+            <span className="rightbarFollowingName">Roberta Greg</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/6.jpeg"
+              src="assets/person2/4m.png"
               alt="Following user 6"
               className="righbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Arpan Khamrui</span>
+            <span className="rightbarFollowingName">Rakesh Roy</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/person2/5f.png"
+              alt="Following user 6"
+              className="righbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">Chen Yung</span>
+          </div>
+          <div className="rightbarFollowing">
+            <img
+              src="assets/person2/5m.png"
+              alt="Following user 6"
+              className="righbarFollowingImg"
+            />
+            <span className="rightbarFollowingName">Arnab Dey</span>
           </div>
         </div>
       </>
