@@ -6,12 +6,17 @@ import Rightbar from "../../components/rightbar/Rightbar";
 export default function Profile() {
   return (
     <>
-        <Topbar />
-        <div className="homeContainer">
-        <Sidebar/>
-        <Feed/>
-        <Rightbar/>
+      <Topbar />
+      <div className="profile">
+        <Sidebar />
+        <div className="profileRight">
+          <div className="profileRightTop"></div>
+          <div className="profileRightButtom">
+            <Feed />
+            <Rightbar />
+          </div>
         </div>
+      </div>
     </>
-  )
+  );
 }
